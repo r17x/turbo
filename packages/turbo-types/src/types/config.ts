@@ -119,7 +119,7 @@ export interface Pipeline {
   outputMode?: string;
 
   /**
-   * Indicates where the task exits or not. Setting `persistent` to `true`, tells
+   * Indicates whether the task exits or not. Setting `persistent` to `true`, tells
    * Turbo that this is a long-running task. Turbo will ensure that other tasks do not
    * depend on it.
    * @default false
